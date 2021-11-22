@@ -33,7 +33,7 @@ def limpeza_tenant(section,tenant,dryrun):
     resultado = conexao.exeucao_query("SELECT public.gera_limpa_tenant(%(long)s)",{'long': tenant})
     resultado = resultado[0][0]
     
-    dry_run(tenant,resultado) if dryrun else limpa_tenant(tenant,resultado)
+    dry_run(tenant,resultado) if dryrun and resultado != None else limpa_tenant(tenant,resultado) if resultado != None else None
 
     return resultado
 

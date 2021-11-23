@@ -2,9 +2,10 @@ from configparser import ConfigParser
 
 class RecuperaDadosConexao:
 
-    def __init__(self, section=None, filename="database.ini"):
+    def __init__(self, section=None, application_name="Python3",filename="database.ini"):
         self._filename = filename
         self._section = section
+        self._application_name = application_name
         self.valida_dados_conexao()
     
     def __str__(self):
@@ -21,6 +22,7 @@ class RecuperaDadosConexao:
         params = parser.items(self._section)
         for param in params:
             db[param[0]] = param[1]
+        db["application_name"] = self._application_name
         
         return db
     

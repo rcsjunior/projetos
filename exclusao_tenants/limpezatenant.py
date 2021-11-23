@@ -28,7 +28,7 @@ def limpa_tenant(tenant,resultado):
 
 def limpeza_tenant(section,tenant,dryrun):
 
-    conexao = ConexaoPostgreSQL(RecuperaDadosConexao(section).parametros())
+    conexao = ConexaoPostgreSQL(RecuperaDadosConexao(section,"Limpeza Tenant").parametros())
     conexao.exeucao_query_sem_retorno("SELECT public.reordenar_tabela_sincronia()")
     resultado = conexao.exeucao_query("SELECT public.gera_limpa_tenant(%(long)s)",{'long': tenant})
     resultado = resultado[0][0]

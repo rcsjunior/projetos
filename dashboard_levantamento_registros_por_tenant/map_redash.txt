@@ -1,0 +1,70 @@
+#DEV
+
+DEV - ESPAÇO TOTAL OCUPADO - query_952
+DEV - TOTAL DE REGISTROS - query_953
+DEV - CONSUMO DIARIO - query_947
+DEV - TOP TENANTS - query_943
+DEV - TENANTS E CLIENTES - query_950
+DEV - TOP TENANTS - STORAGE - query_951
+DEV - TOP TENANTS - REGISTROS - query_954
+DEV - TOP TABELAS - STORAGE - query_945
+DEV - TOP TABELAS - REGISTROS - query_946
+
+DEV - TABELAS COM TENANT VAZIO - query_948
+DEV - TABELAS SEM CAMPO TENANT COM REGISTROS - query_949
+DEV - TENANTS INEXISTENTES NO DIRETORIO - query_944
+
+DEV - VOLUME CONSOLIDADO DE UM REGISTRO - query_955
+DEV - TENANT - STORAGE - query_956
+DEV - TENANT - REGISTROS - query_972
+
+https://dashboard.nasajon.com.br/dashboard/volumetria-de-tenants---dev - Apresenta de uma forma geral a volumetria dos tenants
+https://dashboard.nasajon.com.br/dashboard/dev---volumetria-detalhada-de-um-tenant?p_tenant=656 - Apresenta o detalhamento da volumetria de um tenant
+https://dashboard.nasajon.com.br/dashboard/alertas---inconsist-ncia-de-tenants---dev - Exibe possíveis inconsistências - Não é somente para exibição, precisa apresentar para o desenvolvimento para ações serem tomadas
+
+#PROD
+
+PROD - ESPAÇO TOTAL OCUPADO - query_973
+PROD - TOTAL DE REGISTROS - query_975
+PROD - CONSUMO DIARIO - query_977
+PROD - TOP TENANTS - query_979
+PROD - TENANTS E CLIENTES - query_981
+PROD - TOP TENANTS - STORAGE - query_983
+PROD - TOP TENANTS - REGISTROS - query_985
+PROD - TOP TABELAS - STORAGE - query_996
+PROD - TOP TABELAS - REGISTROS - query_998
+
+PROD - TABELAS COM TENANT VAZIO - query_1000
+PROD - TABELAS SEM CAMPO TENANT COM REGISTROS - query_1002
+PROD - TENANTS INEXISTENTES NO DIRETORIO - query_1004
+
+PROD - VOLUME CONSOLIDADO DE UM REGISTRO - query_1006
+PROD - TENANT - STORAGE - query_1008
+PROD - TENANT - REGISTROS - query_1010
+
+https://dashboard.nasajon.com.br/dashboard/volumetria-detalhada-por-tenant---prod?p_tenant=47 - Volumetria por Tenant
+https://dashboard.nasajon.com.br/dashboard/alertas---inconsist-ncia-de-tenants---prod - Alertas de Inconsistências
+https://dashboard.nasajon.com.br/dashboard/volumetria-de-tenants---prod - Volumetria Consolidade
+
+#QA
+
+QA - ESPAÇO TOTAL OCUPADO - query_974
+QA- TOTAL DE REGISTROS - query_976
+QA - CONSUMO DIARIO - query_978
+QA - TOP TENANTS - query_980
+QA - TENANTS E CLIENTES - query_982
+QA - TOP TENANTS - STORAGE - query_984
+QA - TOP TENANTS - REGISTROS - query_986
+QA - TOP TABELAS - STORAGE - query_997
+QA - TOP TABELAS - REGISTROS - query_999
+
+QA - TABELAS COM TENANT VAZIO - query_1001
+QA - TABELAS SEM CAMPO TENANT COM REGISTROS - query_1003
+QA - TENANTS INEXISTENTES NO DIRETORIO - query_1005
+
+https://dashboard.nasajon.com.br/dashboard/volumetria-detalhada-por-tenant---qa?p_tenant=47 - Volumetria por Tenant
+https://dashboard.nasajon.com.br/dashboard/alertas---inconsist-ncia-de-tenants---qa - Alertas de Inconsistências
+https://dashboard.nasajon.com.br/dashboard/volumetria-de-tenants---qa - Volumetria Consolidade
+QA - VOLUME CONSOLIDADO DE UM REGISTRO - query_1007
+QA - TENANT - STORAGE - query_1009
+QA - TENANT - REGISTROS - query_1011
